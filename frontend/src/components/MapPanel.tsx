@@ -1,0 +1,11 @@
+"use client";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-cluster";
+import { divIcon } from "leaflet";
+import { useEffect } from "react";
+type Zone = {id:string;name:string;lat:number;lng:number;risk:string;score:number;exposure:number;hazard:string;status:string;reason:string};
+const riskColor: Record<string,string> = {CRITICAL:"#ef4444",HIGH:"#f97316",MODERATE:"#eab308",LOW:"#22c55e"};
+function FitZones({zones}:{zones:Zone[]}) { const map=useMap(); useEffect(()=>{if(zones.length) map.fitBounds(zones.map(z=>[z.lat,z.lng] as [number,number]),{padding:[35,35],maxZoom:12});},[zones,map]); return null; }
+function zoneIcon(z:Zone){const color=riskColor[z.risk]||"#64748b";return divIcon({className:"zone-div-icon",html:`<div class="zone-marker" style="--marker-color:${color};--marker-size:${Math.max(30,Math.min(43,27+z.score/7))}px"><span>${z.score}</span></div>`,iconSize:[42,42],iconAnchor:[21,21]});}
+function clusterIcon(cluster:any){const count=cluster.getChildCount();return divIcon({html:`<div class="cluster-marker"><span>${count}</span><small>zones</small></div>`,className:"cluster-div-icon",iconSize:[54,54]});}
+export default function MapPanel({zones}:{zones:Zone[]}) { return <div className="map-wrap"><MapContainer center={[13.21,79.09]} zoom={11} scrollWheelZoom className="leaflet-map"><TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/><FitZones zones={zones}/><MarkerClusterGroup chunkedLoading iconCreateFunction={clusterIcon} showCoverageOnHover={false}>{zones.map(z=><Marker key={z.id} position={[z.lat,z.lng]} icon={zoneIcon(z)}><Popup><div className="map-popup"><strong>{z.name}</strong><br/>{z.id} · {z.hazard}<br/><b>Risk score: {z.score}/100</b><br/>Estimated exposed: {z.exposure.toLocaleString()}<br/>{z.status}<br/><small>{z.reason}</small></div></Popup></Marker>)}</MarkerClusterGroup></MapContainer><div className="map-legend"><b>Scenario risk</b><span><i style={{background:"#ef4444"}}/>Critical</span><span><i style={{background:"#f97316"}}/>High</span><span><i style={{background:"#eab308"}}/>Moderate</span><span><i style={{background:"#22c55e"}}/>Low</span></div></div>; }

@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.venv/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+/package-lock.json
+backend/demo_state.json
+backend/demo_state.lock
+.env*
