@@ -1,0 +1,60 @@
+HYDROSEISMIC PRODUCTION BASELINE
+======================================
+Generated UTC: 2026-10-17T11:57:07.019181+00:00
+Python: 3.12.15
+Platform: Linux-6.8.0-147-generic-s390x-with-glibc2.39
+
+REQUIRED FILES
+OK | Master scored dataset | /home/ibm-user/hydroseismic_data/processed/incidents_master_final_scored.csv
+OK | Latest USGS snapshot | /home/ibm-user/hydroseismic_data/processed/usgs_latest_refresh.csv
+OK | Data quality report | /home/ibm-user/hydroseismic_data/outputs/final_quality_report.csv
+OK | AI validation status | /home/ibm-user/hydroseismic_data/outputs/hydroseismic_ai_validation_status.json
+OK | Audit ledger | /home/ibm-user/hydroseismic_data/outputs/hydroseismic_trusted_audit_ledger.jsonl
+OK | Project backup | /home/ibm-user/hydroseismic_data/outputs/hydroseismic_project_backup.zip
+
+DEPENDENCIES
+AVAILABLE | pandas
+AVAILABLE | numpy
+AVAILABLE | sklearn
+AVAILABLE | requests
+AVAILABLE | matplotlib
+AVAILABLE | plotly
+AVAILABLE | ipywidgets
+AVAILABLE | joblib
+
+MASTER DATASET
+{
+  "rows": 288,
+  "columns": 18,
+  "missing_incident_ids": 0,
+  "duplicate_incident_ids": 0,
+  "column_names": [
+    "incident_id",
+    "source",
+    "event_type",
+    "event_name",
+    "country",
+    "latitude",
+    "longitude",
+    "event_time_utc",
+    "magnitude",
+    "depth_km",
+    "official_alert_level",
+    "source_url",
+    "source_event_id",
+    "episode_id",
+    "priority_score",
+    "priority_band",
+    "magnitude_points",
+    "alert_points"
+  ]
+}
+
+SAFETY
+Public warnings: DISABLED
+Automated emergency actions: DISABLED
+Operating mode: SHADOW
+
+This baseline is an inventory, not a production certification.
+AI and risk scoring remain non-operational pending validation.
+Distributed blockchain is not deployed.

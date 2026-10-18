@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-17T11:46:50.800640+00:00",
+  "simulation_notice": "Synthetic requests and inventory. Each scenario is an independent alternative, not a live allocation.",
+  "scenarios": [
+    {
+      "scenario_id": "SIM-EQ-001",
+      "request_count": 4,
+      "fully_allocated": 1,
+      "partially_allocated": 3,
+      "unmet_requests": 0,
+      "total_shortfall_units_by_type": {
+        "AMBULANCE": 2,
+        "MEDICAL_KITS": 500,
+        "RESCUE_TEAM": 2,
+        "WATER": 0
+      }
+    },
+    {
+      "scenario_id": "SIM-FLOOD-001",
+      "request_count": 4,
+      "fully_allocated": 4,
+      "partially_allocated": 0,
+      "unmet_requests": 0,
+      "total_shortfall_units_by_type": {
+        "AMBULANCE": 0,
+        "FOOD": 0,
+        "MEDICAL_KITS": 0,
+        "WATER": 0
+      }
+    },
+    {
+      "scenario_id": "SIM-FLOOD-002",
+      "request_count": 5,
+      "fully_allocated": 1,
+      "partially_allocated": 4,
+      "unmet_requests": 0,
+      "total_shortfall_units_by_type": {
+        "AMBULANCE": 2,
+        "FOOD": 5000,
+        "MEDICAL_KITS": 0,
+        "RESCUE_TEAM": 2,
+        "WATER": 15000
+      }
+    }
+  ]
+}

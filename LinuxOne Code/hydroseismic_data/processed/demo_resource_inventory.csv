@@ -1,0 +1,6 @@
+resource_type,quantity,unit
+WATER,50000,litres
+FOOD,20000,packets
+MEDICAL_KITS,3000,kits
+AMBULANCE,8,vehicles
+RESCUE_TEAM,4,teams

@@ -1,0 +1,5 @@
+feature,importance
+numeric__longitude,0.5167599859571591
+numeric__latitude,0.30145397184284856
+numeric__depth_km,0.18178604219999236
+categorical__source_USGS,0.0

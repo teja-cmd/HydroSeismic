@@ -1,0 +1,31 @@
+{
+  "experiment": "earthquake magnitude regression",
+  "target": "recorded magnitude",
+  "features": [
+    "latitude",
+    "longitude",
+    "depth_km",
+    "country",
+    "source"
+  ],
+  "records_used": 188,
+  "training_records": 150,
+  "test_records": 38,
+  "split": "chronological 80/20",
+  "random_forest_metrics": {
+    "MAE": 0.479,
+    "RMSE": 0.657,
+    "R2": 0.732
+  },
+  "median_baseline_metrics": {
+    "MAE": 0.987,
+    "RMSE": 1.281,
+    "R2": -0.02
+  },
+  "limitations": [
+    "Experimental retrospective model, not an early-warning system",
+    "Small dataset and potentially biased source coverage",
+    "Recorded magnitude is not damage, casualties, or future-event occurrence",
+    "Chronological holdout is not external validation"
+  ]
+}

@@ -1,0 +1,20 @@
+HYDROSEISMIC HYPERLEDGER FABRIC DEPLOYMENT CHECKLIST
+
+Current state:
+- IBM LinuxONE notebook checked.
+- Docker, Podman, kubectl, Fabric peer CLI and Fabric CA CLI were not found.
+- Documentation website is reachable.
+- No Fabric network configuration was detected.
+- Local hash-chain ledger is a prototype, not a distributed blockchain.
+
+Needed for a genuine deployment:
+1. Access to an authorized existing Fabric network OR a separate server/cluster.
+2. Network endpoint, channel name, chaincode name and organization details.
+3. Authorized client identity and certificate/connection profile, supplied securely.
+4. Chaincode implementation, deployment, endorsement policy and access controls.
+5. Test transactions from an authorized client and verification of committed results.
+6. Documented backup, monitoring, privacy and recovery procedures.
+
+Do not place private keys, certificates, passwords or tokens in this folder.
+Do not publish raw incident data to a shared ledger.
+Deployment status: NOT DEPLOYED.

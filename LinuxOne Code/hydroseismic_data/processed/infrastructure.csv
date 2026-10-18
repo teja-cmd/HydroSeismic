@@ -1,0 +1,3 @@
+osm_type,osm_id,name,category,latitude,longitude,amenity,emergency,capacity,wheelchair,website
+node,7840647165,Sub Health Centre,HEALTHCARE,11.3279018,78.5651328,clinic,,,,
+node,7840647212,Government Hospital,HOSPITAL,11.3501634,78.6138846,hospital,,,,

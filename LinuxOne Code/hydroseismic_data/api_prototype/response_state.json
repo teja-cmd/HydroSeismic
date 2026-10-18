@@ -1,0 +1,35 @@
+{
+  "inventory": {
+    "WATER": 49990,
+    "FOOD": 19995,
+    "MEDICAL_KITS": 3000,
+    "AMBULANCE": 8,
+    "RESCUE_TEAM": 4
+  },
+  "requests": {
+    "TEST-2FE86DB70E": {
+      "zone": "TEST-ZONE-A",
+      "items": {
+        "WATER": 10,
+        "FOOD": 5
+      },
+      "status": "DELIVERED",
+      "reserved": {
+        "WATER": 10,
+        "FOOD": 5
+      },
+      "delivered": {
+        "WATER": 10,
+        "FOOD": 5
+      },
+      "approved_by": "test_government_approver"
+    }
+  },
+  "processed_commands": [
+    "2FE86DB70E-SUBMIT",
+    "2FE86DB70E-REVIEW",
+    "2FE86DB70E-RESERVE",
+    "2FE86DB70E-DISPATCH",
+    "2FE86DB70E-DELIVERY"
+  ]
+}

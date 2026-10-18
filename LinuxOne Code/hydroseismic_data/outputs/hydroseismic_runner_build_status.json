@@ -1,0 +1,8 @@
+{
+  "created_at_utc": "2026-10-17T12:04:08.823084+00:00",
+  "runner_path": "/home/ibm-user/hydroseismic_data/scripts/hydroseismic_runner.py",
+  "syntax_check": "PASS",
+  "pipeline_implementation_ready": false,
+  "public_warnings_enabled": false,
+  "note": "The runner needs hydroseismic_pipeline.py before it can run the live pipeline."
+}

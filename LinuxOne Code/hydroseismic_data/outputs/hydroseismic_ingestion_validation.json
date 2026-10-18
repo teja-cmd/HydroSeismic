@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-17T11:58:13.720117+00:00",
+  "source_file": "/home/ibm-user/hydroseismic_data/processed/usgs_latest_refresh.csv",
+  "status": "PASS",
+  "checks": {
+    "rows": 181,
+    "timestamp_column_used": "timestamp",
+    "missing_incident_ids": 0,
+    "duplicate_incident_ids": 0,
+    "invalid_latitudes": 0,
+    "invalid_longitudes": 0,
+    "invalid_event_timestamps": 0,
+    "future_event_timestamps": 0,
+    "missing_event_types": 0,
+    "missing_or_invalid_magnitudes": 0,
+    "earthquake_magnitudes_outside_screening_range": 0,
+    "newest_event_time_utc": "2026-10-17T11:24:39.707000+00:00",
+    "oldest_event_time_utc": "2026-10-16T11:39:44.878000+00:00",
+    "newest_event_age_hours": 0.56,
+    "freshness_threshold_hours": 24,
+    "snapshot_fresh_by_event_time_threshold": true,
+    "structural_validation_pass": true,
+    "public_warnings_enabled": false,
+    "master_dataset_modified": false
+  },
+  "notes": [
+    "Validation is read-only; the source CSV and master dataset are unchanged.",
+    "Event time is not feed-refresh time. Use source retrieval time for operational freshness.",
+    "Magnitude range is a screening check, not a universal scientific limit.",
+    "This report does not authorize warnings or operational decisions."
+  ]
+}

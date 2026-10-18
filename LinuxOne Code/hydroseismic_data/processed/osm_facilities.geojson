@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5651328,
+          11.3279018
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647165,
+        "name": "Sub Health Centre",
+        "category": "HEALTHCARE",
+        "latitude": 11.3279018,
+        "longitude": 78.5651328,
+        "amenity": "clinic",
+        "emergency": "",
+        "capacity": "",
+        "wheelchair": "",
+        "website": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6138846,
+          11.3501634
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647212,
+        "name": "Government Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.3501634,
+        "longitude": 78.6138846,
+        "amenity": "hospital",
+        "emergency": "",
+        "capacity": "",
+        "wheelchair": "",
+        "website": ""
+      }
+    }
+  ]
+}

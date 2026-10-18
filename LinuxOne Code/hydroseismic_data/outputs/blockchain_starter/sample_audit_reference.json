@@ -1,0 +1,7 @@
+{
+  "record_type": "HydroSeismicAuditReference",
+  "schema_version": "1.0",
+  "created_utc": "2026-10-17T11:54:08.584475+00:00",
+  "source_record_sha256": "feae437610784842e7b2af61bb0d05d31feb5a1d3bd83e6696bfa7adbac0ec93",
+  "note": "Demo reference only. No personal data or full incident record stored."
+}

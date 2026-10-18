@@ -1,0 +1,6 @@
+Resource,Initial Stock,Available Stock,Committed Stock
+WATER,50000,50000,0
+FOOD,20000,20000,0
+MEDICAL_KITS,3000,3000,0
+AMBULANCE,8,8,0
+RESCUE_TEAM,4,4,0

@@ -1,0 +1,450 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-17T10:57:34Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7257346769,
+      "lat": 11.24911,
+      "lon": 78.478211,
+      "tags": {
+        "addr:block": "Uppiliapuram",
+        "addr:district": "Tiruchirappalli",
+        "addr:full": "B.Mettur, Tiruchirappalli, Uppiliapuram South",
+        "addr:postcode": "621003",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Thuraiyur",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "PHC, B.Mettur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257346800,
+      "lat": 11.26266,
+      "lon": 78.516489,
+      "tags": {
+        "addr:block": "Uppiliapuram",
+        "addr:district": "Tiruchirappalli",
+        "addr:full": "Uppiliyapuram, Attur Main Road",
+        "addr:postcode": "621011",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Thuraiyur",
+        "description": "Upgraded Primary Health Center",
+        "healthcare": "centre",
+        "name": "Uppliyapuram, Upgraded PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257348881,
+      "lat": 11.2131212,
+      "lon": 78.7444693,
+      "tags": {
+        "addr:block": "Perambalur Mpty",
+        "addr:district": "Perambalur",
+        "addr:full": "Nearcatholic Syrian Bank, Ammapalayam, Perambalur",
+        "addr:postcode": "621101",
+        "addr:state": "Tamil Nadu",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "PHC, Ammapalayam",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257348930,
+      "lat": 11.23374,
+      "lon": 78.799563,
+      "tags": {
+        "addr:block": "Perambalur Mpty",
+        "addr:district": "Perambalur",
+        "addr:full": "Vetnary Hospital, Kurumbalur, Duraiyur Road",
+        "addr:postcode": "621107",
+        "addr:state": "Tamil Nadu",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "PHC, Kurumbalur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257348935,
+      "lat": 11.2188189,
+      "lon": 78.5850374,
+      "tags": {
+        "addr:block": "Thuraiyur Mpty",
+        "addr:district": "Tiruchirappalli",
+        "addr:full": "Gphc: Perumalpalayam, Main Road, Narasingapuram Main Road",
+        "addr:postcode": "621016",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Thuraiyur",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "Perumalpalayam PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262800440,
+      "lat": 11.4421254,
+      "lon": 78.4867012,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Bazar Street, Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Gangavalli",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sabeetha Surgical Clinic",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262800463,
+      "lat": 11.44011,
+      "lon": 78.485504,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Near Police Station, Thammampatty, Trichy Main Road",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Gangavalli",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "Thammampatti PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262800487,
+      "lat": 11.4384835,
+      "lon": 78.5221139,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Near Chaurch, Sendarapatty, Palakkadu Main Road",
+        "addr:postcode": "636110",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Gangavalli",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "Sendarapatti PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262800493,
+      "lat": 11.3767786,
+      "lon": 78.7366561,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Near, Arumbavoor, Poolambadsy Main Road,Perambalur",
+        "addr:postcode": "621103",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Veppanthattai",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "PHC, Arumbavur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262800529,
+      "lat": 11.4116147,
+      "lon": 78.7086715,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Poolambadi",
+        "addr:postcode": "621110",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Veppanthattai",
+        "description": "Community Health Centre",
+        "healthcare": "centre",
+        "name": "Poolambadi CHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262800531,
+      "lat": 11.386431,
+      "lon": 78.7882072,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Athur Road, Krishnapuram",
+        "addr:postcode": "621103",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Veppanthattai",
+        "amenity": "hospital",
+        "name": "Government Hospital, Krishnapuram",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262949165,
+      "lat": 11.3285101,
+      "lon": 78.5644986,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Primary School Near, Pachamalai, Main Road",
+        "addr:postcode": "636110",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Gangavalli",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "Pachamalai, PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7262949177,
+      "lat": 11.3082545,
+      "lon": 78.5843247,
+      "tags": {
+        "addr:block": "Uppiliapuram",
+        "addr:district": "Tiruchirappalli",
+        "addr:full": "Top Sengattupatti - Primary Health Centre, Top Sengattupatti, Pacha Malai Rd",
+        "addr:postcode": "621011",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Thuraiyur",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "Top Sengattupatti PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647142,
+      "lat": 11.4437321,
+      "lon": 78.4858654,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Palakkarai, Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Annai Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647165,
+      "lat": 11.3279018,
+      "lon": 78.5651328,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Pachamalai",
+        "addr:postcode": "636110",
+        "addr:state": "Tamil Nadu",
+        "amenity": "clinic",
+        "name": "Sub Health Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647178,
+      "lat": 11.4424776,
+      "lon": 78.4894516,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Thai Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647186,
+      "lat": 11.4415635,
+      "lon": 78.4890421,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Jayaraj Memorial Clinic",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647191,
+      "lat": 11.4426079,
+      "lon": 78.4879762,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Agraharam, Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Ramu Life Care Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647199,
+      "lat": 11.444915,
+      "lon": 78.485868,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Udayarpalayam, Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Shreetejo Ayurveda Clinic",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647202,
+      "lat": 11.4439899,
+      "lon": 78.4857585,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Udayarpalayam, Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Vinola Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647212,
+      "lat": 11.3501634,
+      "lon": 78.6138846,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Pachamalai",
+        "addr:postcode": "636110",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647220,
+      "lat": 11.4443163,
+      "lon": 78.4862134,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:full": "Udayarpalayam, Thammampatti",
+        "addr:postcode": "636113",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "The Chirist Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840647226,
+      "lat": 11.437014,
+      "lon": 78.5247325,
+      "tags": {
+        "addr:district": "Salem",
+        "addr:postcode": "636110",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7846637029,
+      "lat": 11.4261241,
+      "lon": 78.7200159,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Kadambur",
+        "addr:postcode": "621110",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7846637053,
+      "lat": 11.382232,
+      "lon": 78.7289364,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Arumbavur",
+        "addr:postcode": "621103",
+        "addr:state": "Tamil Nadu",
+        "amenity": "hospital",
+        "name": "Reality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7846637084,
+      "lat": 11.377045,
+      "lon": 78.790235,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Krishnapuram",
+        "addr:postcode": "621116",
+        "addr:state": "Tamil Nadu",
+        "amenity": "clinic",
+        "name": "Annai Homoeo Clinic",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7846637089,
+      "lat": 11.378081,
+      "lon": 78.7891346,
+      "tags": {
+        "addr:district": "Perambalur",
+        "addr:full": "Krishnapuram",
+        "addr:postcode": "621116",
+        "addr:state": "Tamil Nadu",
+        "amenity": "clinic",
+        "name": "Bala Clinic",
+        "source": "Local Knowledge"
+      }
+    }
+  ]
+}

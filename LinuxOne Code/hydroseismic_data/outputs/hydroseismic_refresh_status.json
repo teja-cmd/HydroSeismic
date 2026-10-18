@@ -1,0 +1,12 @@
+{
+  "started_at_utc": "2026-10-17T12:06:41.992734+00:00",
+  "status": "SUCCESS",
+  "public_warnings_enabled": false,
+  "http_status": 200,
+  "records_received": 176,
+  "records_saved": 176,
+  "retrieved_at_utc": "2026-10-17T12:06:42.110380+00:00",
+  "snapshot_sha256": "49a45555a4534a5d8307206352c996390d7496fefd8146eb1d4d37d38e66255b",
+  "snapshot_path": "/home/ibm-user/hydroseismic_data/processed/usgs_latest_refresh.csv",
+  "completed_at_utc": "2026-10-17T12:06:42.110428+00:00"
+}

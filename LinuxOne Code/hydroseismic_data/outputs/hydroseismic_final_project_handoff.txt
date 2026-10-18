@@ -1,0 +1,70 @@
+HYDROSEISMIC: FINAL PROJECT HANDOFF
+Generated UTC: 2026-10-17T11:55:04.297732+00:00
+
+1. PROJECT OVERVIEW
+HydroSeismic combines earthquake and flood incident data, a live-event
+map, a what-if simulation, experimental machine learning, and an audit
+ledger prototype.
+
+2. DATA AND DIGITAL TWIN
+Master incident dataset: 288 records.
+Latest USGS snapshot: 181 records.
+Master source counts: 188 USGS and 100 GDACS records.
+Master event counts: 277 earthquakes and 11 floods.
+Priority bands: 5 High, 99 Medium, 184 Low.
+
+The priority score is a transparent heuristic, not an official warning
+or a scientifically validated estimate of disaster risk.
+
+3. EXPERIMENTAL AI
+Task: estimate recorded earthquake magnitude from event attributes.
+Model: Random Forest regressor.
+Evaluation: three chronological retrospective folds.
+Mean Random Forest MAE: 0.465.
+Mean Random Forest RMSE: 0.649.
+Mean Random Forest R-squared: 0.732.
+Median baseline MAE: 1.012.
+Median baseline RMSE: 1.310.
+Median baseline R-squared: -0.027.
+
+These results are preliminary, based on a small dataset and a short
+observation window. They are not independent scientific validation.
+The model does not forecast earthquake occurrence, location, or impact.
+
+4. AUDIT LEDGER
+A local hash-chain audit ledger exists and has been checked for internal
+hash and chain consistency. This is tamper-evident prototype behavior,
+not proof against every possible rewrite and not a distributed blockchain.
+
+5. BLOCKCHAIN STARTER
+Starter folder: outputs/blockchain_starter
+Includes:
+- sample_audit_reference.json
+- hydroseismic_chaincode_design.go
+- DEPLOYMENT_CHECKLIST.txt
+
+Environment check found no Docker, Podman, Kubernetes CLI, Fabric peer
+CLI, Fabric CA CLI, or obvious Fabric configuration in the notebook.
+
+Blockchain status: STARTER PACKAGED, NETWORK NOT DEPLOYED.
+
+6. REQUIRED FOR REAL DISTRIBUTED DEPLOYMENT
+- An authorized Hyperledger Fabric network or separate server/cluster.
+- Organization, channel, endpoint, and chaincode deployment details.
+- Authorized credentials and client connection configuration.
+- Implemented and tested chaincode, access policies, and endorsement.
+- Successful write/read/verification transactions on the real network.
+- Documented privacy, monitoring, backup, and recovery procedures.
+
+Never put private keys, tokens, or passwords into the project backup.
+Do not store sensitive incident details on a shared ledger unnecessarily.
+
+7. BACKUP
+Project ZIP:
+outputs/hydroseismic_project_backup.zip
+
+8. HONEST DEMONSTRATION CLAIM
+HydroSeismic is a working prototype with a digital-twin-style map and
+simulation, preliminary retrospective AI experiments, and a local
+tamper-evident audit ledger. Distributed blockchain deployment and
+operational AI validation remain future work.

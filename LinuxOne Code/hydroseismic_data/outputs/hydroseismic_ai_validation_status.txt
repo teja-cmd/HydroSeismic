@@ -1,0 +1,24 @@
+HYDROSEISMIC AI VALIDATION STATUS
+======================================
+
+Status: PRELIMINARY EXPERIMENTAL RESULTS
+Target: Recorded earthquake magnitude
+Evaluation: Three chronological retrospective folds
+
+This experiment is not independent scientific validation.
+It is not an earthquake early-warning or forecasting system.
+Do not use its output for official warnings or safety decisions.
+
+Evaluation summary:
+          model   MAE  RMSE     R2
+Median baseline 1.012 1.310 -0.027
+  Random Forest 0.465 0.649  0.732
+
+Individual fold results:
+     MAE     RMSE        R2  fold           model  train_rows  test_rows                       test_start                         test_end
+0.351628 0.454483  0.879722     1   Random Forest          94         31 2026-10-16 22:17:23.130000+00:00 2026-10-17 01:42:33.720000+00:00
+1.041129 1.318459 -0.012243     1 Median baseline          94         31 2026-10-16 22:17:23.130000+00:00 2026-10-17 01:42:33.720000+00:00
+0.510323 0.787174  0.602937     2   Random Forest         125         31 2026-10-17 01:50:33.110000+00:00 2026-10-17 07:05:54.449000+00:00
+0.969355 1.269759 -0.033142     2 Median baseline         125         31 2026-10-17 01:50:33.110000+00:00 2026-10-17 07:05:54.449000+00:00
+0.532767 0.706780  0.713254     3   Random Forest         156         32 2026-10-17 07:09:57.800000+00:00 2026-10-17 10:35:46.934000+00:00
+1.024687 1.343176 -0.035608     3 Median baseline         156         32 2026-10-17 07:09:57.800000+00:00 2026-10-17 10:35:46.934000+00:00

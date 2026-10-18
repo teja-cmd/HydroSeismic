@@ -1,0 +1,35 @@
+HYDROSEISMIC PROJECT SUMMARY
+================================
+
+Purpose:
+Combine public USGS earthquake data and GDACS earthquake/flood events
+into one normalized dataset for exploration and transparent prioritization.
+
+DATASET
+Total incidents: 288
+USGS incidents: 188
+GDACS incidents: 100
+
+EVENT TYPES
+earthquake: 277
+flood: 11
+
+CALCULATED PRIORITY BANDS
+High: 5
+Medium: 99
+Low: 184
+
+DATA QUALITY
+Duplicate incident IDs: 0
+Duplicate complete rows: 0
+Missing coordinates: 0
+Invalid latitude/longitude values: 0
+Invalid timestamps: 0
+
+IMPORTANT LIMITATION
+Priority scores are prototype heuristic calculations, not official
+disaster warnings, validated risk estimates, or predictions.
+GDACS official alert levels are kept separate from calculated priority.
+
+MAIN DATA FILE
+/home/ibm-user/hydroseismic_data/processed/incidents_master_final_scored.csv

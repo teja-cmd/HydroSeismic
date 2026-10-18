@@ -1,0 +1,16 @@
+Check,Result
+Total records,288
+USGS records,188
+GDACS records,100
+Duplicate incident IDs,0
+Duplicate complete rows,0
+Missing incident IDs,0
+Missing event types,0
+Missing coordinates,0
+Invalid latitude values,0
+Invalid longitude values,0
+Missing priority scores,0
+Missing priority bands,0
+Invalid timestamps,0
+Invalid USGS timestamps,0
+Invalid GDACS timestamps,0

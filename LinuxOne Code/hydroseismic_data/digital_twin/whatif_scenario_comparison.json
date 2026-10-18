@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-17T11:46:49.427746+00:00",
+  "study_area_center": {
+    "latitude": 11.3324,
+    "longitude": 78.6099
+  },
+  "scenarios": [
+    {
+      "scenario_id": "SIM-FLOOD-001",
+      "disaster_type": "FLOOD",
+      "label": "Flood baseline",
+      "screening_radius_km": 5,
+      "flood_depth_m": 0.5,
+      "facilities_in_screening_zone": 4,
+      "facility_categories": {
+        "HEALTHCARE": 3,
+        "HOSPITAL": 1
+      },
+      "road_segments_to_review": 3,
+      "population_exposure": "NOT_CALCULATED",
+      "hazard_status": "SIMULATED",
+      "notes": "Proximity screening only. Does not establish actual damage, inundation, earthquake impact, road blockage, or casualties."
+    },
+    {
+      "scenario_id": "SIM-FLOOD-002",
+      "disaster_type": "FLOOD",
+      "label": "Flood escalation",
+      "screening_radius_km": 10,
+      "flood_depth_m": 1.0,
+      "facilities_in_screening_zone": 4,
+      "facility_categories": {
+        "HEALTHCARE": 3,
+        "HOSPITAL": 1
+      },
+      "road_segments_to_review": 12,
+      "population_exposure": "NOT_CALCULATED",
+      "hazard_status": "SIMULATED",
+      "notes": "Proximity screening only. Does not establish actual damage, inundation, earthquake impact, road blockage, or casualties."
+    },
+    {
+      "scenario_id": "SIM-EQ-001",
+      "disaster_type": "EARTHQUAKE",
+      "label": "Earthquake response test",
+      "screening_radius_km": 10,
+      "magnitude": 5.5,
+      "depth_km": 10,
+      "facilities_in_screening_zone": 4,
+      "facility_categories": {
+        "HEALTHCARE": 3,
+        "HOSPITAL": 1
+      },
+      "road_segments_to_review": 12,
+      "population_exposure": "NOT_CALCULATED",
+      "hazard_status": "SIMULATED",
+      "notes": "Proximity screening only. Does not establish actual damage, inundation, earthquake impact, road blockage, or casualties."
+    }
+  ]
+}

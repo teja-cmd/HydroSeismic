@@ -1,0 +1,77 @@
+[
+  {
+    "sequence": 1,
+    "timestamp": "2026-10-17T18:07:08.606800+00:00",
+    "action": "REQUEST_SUBMITTED",
+    "actor": "test_zone_officer",
+    "request_id": "TEST-2FE86DB70E",
+    "details": {
+      "zone": "TEST-ZONE-A",
+      "items": {
+        "WATER": 10,
+        "FOOD": 5
+      }
+    },
+    "previous_hash": "GENESIS",
+    "hash": "be51573c64f018eb10a1cb50235fad30f953895c87660a8ee258c44ae5e570b4"
+  },
+  {
+    "sequence": 2,
+    "timestamp": "2026-10-17T18:07:08.611423+00:00",
+    "action": "REQUEST_APPROVE",
+    "actor": "test_government_approver",
+    "request_id": "TEST-2FE86DB70E",
+    "details": {
+      "zone": "TEST-ZONE-A",
+      "role": "government_approver"
+    },
+    "previous_hash": "be51573c64f018eb10a1cb50235fad30f953895c87660a8ee258c44ae5e570b4",
+    "hash": "70e5b7e9e4567abc5cac107598faaf4dd1bca7bdf54efe6e9fa7e4fcacce90ea"
+  },
+  {
+    "sequence": 3,
+    "timestamp": "2026-10-17T18:07:08.623308+00:00",
+    "action": "RESOURCES_RESERVED",
+    "actor": "test_inventory_officer",
+    "request_id": "TEST-2FE86DB70E",
+    "details": {
+      "items": {
+        "WATER": 10,
+        "FOOD": 5
+      }
+    },
+    "previous_hash": "70e5b7e9e4567abc5cac107598faaf4dd1bca7bdf54efe6e9fa7e4fcacce90ea",
+    "hash": "2c78639512e22938462c5a62e0f7254943b38acac0c9afeb525280499416b0b4"
+  },
+  {
+    "sequence": 4,
+    "timestamp": "2026-10-17T18:07:08.628949+00:00",
+    "action": "RESOURCES_DISPATCHED",
+    "actor": "test_dispatch_officer",
+    "request_id": "TEST-2FE86DB70E",
+    "details": {
+      "items": {
+        "WATER": 10,
+        "FOOD": 5
+      }
+    },
+    "previous_hash": "2c78639512e22938462c5a62e0f7254943b38acac0c9afeb525280499416b0b4",
+    "hash": "e4e51701da0615ece296e12c878a416fa100108f0ee7b99175baf65c85e520f6"
+  },
+  {
+    "sequence": 5,
+    "timestamp": "2026-10-17T18:07:08.632762+00:00",
+    "action": "DELIVERY_CONFIRMED",
+    "actor": "test_delivery_officer",
+    "request_id": "TEST-2FE86DB70E",
+    "details": {
+      "zone": "TEST-ZONE-A",
+      "items": {
+        "WATER": 10,
+        "FOOD": 5
+      }
+    },
+    "previous_hash": "e4e51701da0615ece296e12c878a416fa100108f0ee7b99175baf65c85e520f6",
+    "hash": "a06e82dfd12b655d106a49bc4464492575a2e9bac6e6a96c856c61f8bb4827e5"
+  }
+]

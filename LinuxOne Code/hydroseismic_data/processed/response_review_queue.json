@@ -1,0 +1,230 @@
+{
+  "project": "HydroSeismic",
+  "created_at_utc": "2026-10-17T18:28:21.379210+00:00",
+  "source": "/home/ibm-user/hydroseismic_data/processed/allocation_recommendations.csv",
+  "record_count": 13,
+  "notice": "Review queue only. No approval, inventory reservation, dispatch, or delivery is performed.",
+  "records": [
+    {
+      "review_id": "HS-REVIEW-00001",
+      "scenario_id": "SIM-EQ-001",
+      "disaster_type": "EARTHQUAKE",
+      "source_request_id": "REQ-EQ-004",
+      "zone_id": "DEMO-ZONE-C",
+      "resource_type": "RESCUE_TEAM",
+      "requested_qty": 6,
+      "recommended_qty": 4,
+      "unmet_qty": 2,
+      "priority_score": 97.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00002",
+      "scenario_id": "SIM-EQ-001",
+      "disaster_type": "EARTHQUAKE",
+      "source_request_id": "REQ-EQ-001",
+      "zone_id": "DEMO-HOSPITAL-ZONE",
+      "resource_type": "MEDICAL_KITS",
+      "requested_qty": 3500,
+      "recommended_qty": 3000,
+      "unmet_qty": 500,
+      "priority_score": 97.0,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00003",
+      "scenario_id": "SIM-EQ-001",
+      "disaster_type": "EARTHQUAKE",
+      "source_request_id": "REQ-EQ-002",
+      "zone_id": "DEMO-HOSPITAL-ZONE",
+      "resource_type": "AMBULANCE",
+      "requested_qty": 10,
+      "recommended_qty": 8,
+      "unmet_qty": 2,
+      "priority_score": 97.0,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00004",
+      "scenario_id": "SIM-EQ-001",
+      "disaster_type": "EARTHQUAKE",
+      "source_request_id": "REQ-EQ-003",
+      "zone_id": "DEMO-ZONE-C",
+      "resource_type": "WATER",
+      "requested_qty": 30000,
+      "recommended_qty": 30000,
+      "unmet_qty": 0,
+      "priority_score": 79.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00005",
+      "scenario_id": "SIM-FLOOD-001",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FB-001",
+      "zone_id": "DEMO-ZONE-A",
+      "resource_type": "WATER",
+      "requested_qty": 18000,
+      "recommended_qty": 18000,
+      "unmet_qty": 0,
+      "priority_score": 85.0,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00006",
+      "scenario_id": "SIM-FLOOD-001",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FB-004",
+      "zone_id": "DEMO-HOSPITAL-ZONE",
+      "resource_type": "AMBULANCE",
+      "requested_qty": 3,
+      "recommended_qty": 3,
+      "unmet_qty": 0,
+      "priority_score": 77.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00007",
+      "scenario_id": "SIM-FLOOD-001",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FB-003",
+      "zone_id": "DEMO-HOSPITAL-ZONE",
+      "resource_type": "MEDICAL_KITS",
+      "requested_qty": 400,
+      "recommended_qty": 400,
+      "unmet_qty": 0,
+      "priority_score": 76.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00008",
+      "scenario_id": "SIM-FLOOD-001",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FB-002",
+      "zone_id": "DEMO-ZONE-A",
+      "resource_type": "FOOD",
+      "requested_qty": 8000,
+      "recommended_qty": 8000,
+      "unmet_qty": 0,
+      "priority_score": 74.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00009",
+      "scenario_id": "SIM-FLOOD-002",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FE-001",
+      "zone_id": "DEMO-ZONE-A",
+      "resource_type": "WATER",
+      "requested_qty": 65000,
+      "recommended_qty": 50000,
+      "unmet_qty": 15000,
+      "priority_score": 95.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00010",
+      "scenario_id": "SIM-FLOOD-002",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FE-005",
+      "zone_id": "DEMO-ZONE-B",
+      "resource_type": "RESCUE_TEAM",
+      "requested_qty": 6,
+      "recommended_qty": 4,
+      "unmet_qty": 2,
+      "priority_score": 92.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00011",
+      "scenario_id": "SIM-FLOOD-002",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FE-002",
+      "zone_id": "DEMO-ZONE-A",
+      "resource_type": "FOOD",
+      "requested_qty": 25000,
+      "recommended_qty": 20000,
+      "unmet_qty": 5000,
+      "priority_score": 91.0,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00012",
+      "scenario_id": "SIM-FLOOD-002",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FE-003",
+      "zone_id": "DEMO-HOSPITAL-ZONE",
+      "resource_type": "MEDICAL_KITS",
+      "requested_qty": 900,
+      "recommended_qty": 900,
+      "unmet_qty": 0,
+      "priority_score": 88.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    },
+    {
+      "review_id": "HS-REVIEW-00013",
+      "scenario_id": "SIM-FLOOD-002",
+      "disaster_type": "FLOOD",
+      "source_request_id": "REQ-FE-004",
+      "zone_id": "DEMO-HOSPITAL-ZONE",
+      "resource_type": "AMBULANCE",
+      "requested_qty": 10,
+      "recommended_qty": 8,
+      "unmet_qty": 2,
+      "priority_score": 87.5,
+      "data_status": "SYNTHETIC_DEMO",
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "issues": [
+        "Synthetic scenario; demo review only"
+      ]
+    }
+  ]
+}

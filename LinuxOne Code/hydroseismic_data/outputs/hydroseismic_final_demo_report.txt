@@ -1,0 +1,49 @@
+HYDROSEISMIC: FINAL DEMONSTRATION REPORT
+============================================
+
+PROJECT OVERVIEW
+HydroSeismic combines selected public USGS earthquake data and
+GDACS earthquake/flood events into a normalized incident dataset.
+It provides filtering, visualization, data validation, and a
+transparent prototype priority calculation.
+
+DATASET SNAPSHOT
+Total incidents: 288
+Sources: GDACS, USGS
+Event types: earthquake, flood
+
+INCIDENTS BY SOURCE
+USGS: 188
+GDACS: 100
+
+PRIORITY DISTRIBUTION
+High: 5
+Medium: 99
+Low: 184
+
+DEMO STEPS
+1. Open the HydroSeismic Jupyter notebook.
+2. Run the notebook cells in order.
+3. Show the combined incident dataset and its source counts.
+4. Filter by source: USGS or GDACS.
+5. Filter by event type: earthquake or flood.
+6. Filter by calculated priority band.
+7. Show the location plot and priority distribution chart.
+8. Show the final data-quality report.
+
+KEY LIMITATIONS
+Priority bands are produced by an experimental heuristic.
+They are not official warnings, validated risk estimates,
+or predictions of future disasters or impacts.
+GDACS alert levels remain separate from calculated priority.
+
+PROJECT OUTPUTS
+processed/incidents_master_final_scored.csv
+outputs/final_quality_report.csv
+outputs/priority_distribution.png
+outputs/hydroseismic_project_summary.txt
+outputs/hydroseismic_architecture_and_workflow.txt
+
+DEMO READINESS
+The reported readiness checks passed for the current dataset snapshot.
+Repeat validation after refreshing the source data.

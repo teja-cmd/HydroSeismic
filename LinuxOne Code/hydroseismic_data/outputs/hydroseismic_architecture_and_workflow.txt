@@ -1,0 +1,125 @@
+HYDROSEISMIC
+Earthquake and Flood Incident Monitoring Prototype
+==================================================
+
+1. PROBLEM STATEMENT
+Public earthquake and flood incident information is published by
+different sources and in different formats. HydroSeismic combines
+selected public incident records into a common dataset for exploration
+and transparent prototype prioritization.
+
+2. DATA SOURCES
+- USGS: earthquake event feed.
+- GDACS: earthquake and flood event information, including official
+  alert levels where available.
+
+3. SYSTEM ARCHITECTURE
+
+   Public USGS Feed        Public GDACS Feed
+          |                       |
+          v                       v
+      Data Retrieval          Data Retrieval
+          |                       |
+          v                       v
+      Normalization and Standardization
+                      |
+                      v
+              Combined Master Dataset
+                      |
+                      v
+                Data Validation
+                      |
+                      v
+          Prototype Priority Calculation
+                      |
+                      v
+              Interactive Notebook
+              /        |                      v         v          v
+         Filters    Data Table   Location Plot
+                      |
+                      v
+              Reports and Outputs
+
+4. DATASET SNAPSHOT
+- Total records: 288
+- USGS records: 188
+- GDACS records: 100
+- Earthquakes: 277
+- Floods: 11
+
+These counts describe the current dataset snapshot and can change when
+the source feeds are refreshed.
+
+5. PRIORITY CALCULATION
+The prototype combines earthquake magnitude points with points based
+on the GDACS official alert level when available.
+
+Magnitude contribution:
+- Earthquake magnitude is capped at 7 for this calculation.
+- Magnitude points increase nonlinearly with magnitude.
+- The maximum magnitude contribution is 70 points.
+
+GDACS alert contribution:
+- Red: 30 points
+- Orange: 20 points
+- Green: 10 points
+- Missing alert: 0 points
+
+The total is capped at 100.
+
+Calculated priority bands:
+- Low: 0 to below 30
+- Medium: 30 to below 60
+- High: 60 to 100
+
+Current distribution:
+- High: 5
+- Medium: 99
+- Low: 184
+
+6. IMPORTANT INTERPRETATION
+Calculated priority is an experimental heuristic for organizing
+incidents. It is not an official warning, a validated risk estimate,
+or a disaster prediction.
+
+GDACS official alert levels and HydroSeismic calculated priority are
+different fields and must not be presented as equivalent.
+
+The prototype does not establish that the score predicts damage,
+casualties, or future events.
+
+7. DATA QUALITY
+The latest quality report shows:
+- 288 records
+- 0 duplicate incident IDs
+- 0 duplicate complete rows
+- 0 missing coordinates
+- 0 invalid latitude values
+- 0 invalid longitude values
+- 0 invalid timestamps
+
+These checks assess selected structural properties. They do not prove
+that source data are complete or that every event detail is accurate.
+
+8. CURRENT OUTPUT FILES
+processed/incidents_master_final_scored.csv
+outputs/final_quality_report.csv
+outputs/priority_distribution.png
+outputs/hydroseismic_project_summary.txt
+
+9. FUTURE IMPROVEMENTS
+- Add a reliable refresh-and-validation pipeline.
+- Add an interactive geographic basemap if the environment supports it.
+- Improve source provenance and timestamp handling documentation.
+- Test the scoring method against independently verified impact data.
+- Add automated tests and clear error handling.
+- Consider deployment only after testing and documenting limitations.
+
+10. TECHNOLOGY
+- Python
+- Pandas
+- Jupyter Notebook
+- Matplotlib
+- ipywidgets
+
+END OF DOCUMENT

@@ -1,0 +1,12 @@
+{
+  "project": "HydroSeismic",
+  "configuration_version": 1,
+  "operating_mode": "shadow",
+  "public_warnings_enabled": false,
+  "automated_emergency_actions_enabled": false,
+  "human_review_required": true,
+  "prediction_status": "experimental_not_operationally_validated",
+  "risk_score_status": "heuristic_not_official_warning",
+  "blockchain_status": "starter_packaged_network_not_deployed",
+  "created_utc": "2026-10-17T11:57:07.018910+00:00"
+}

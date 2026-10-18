@@ -1,0 +1,106 @@
+HYDROSEISMIC PRESENTATION SPEAKING SCRIPT
+=========================================
+
+SLIDE 1: TITLE
+"Good morning. My project is called HydroSeismic.
+It combines public earthquake and flood incident information into
+one dataset. It also provides data validation, visualization,
+filtering, and a prototype priority calculation."
+
+SLIDE 2: PROBLEM STATEMENT
+"Incident information comes from different public sources and formats.
+This project brings selected records together in a consistent structure
+so that users can explore and compare them more easily."
+
+SLIDE 3: DATA SOURCES
+"I use USGS earthquake data and GDACS earthquake and flood records.
+My current dataset contains 288 incidents: 188 from USGS and 100 from
+GDACS. These counts describe the current data snapshot."
+
+SLIDE 4: SYSTEM WORKFLOW
+"First, the source data are retrieved and normalized.
+Then the records are combined and checked for data-quality issues.
+A prototype score is calculated, and the results can be explored
+through notebook filters, tables, and plots."
+
+SLIDE 5: TECHNOLOGY STACK
+"Python is used for the project logic. Pandas handles tabular data.
+Jupyter Notebook provides the development and demonstration environment.
+Matplotlib creates charts, and ipywidgets provides interactive filters."
+
+SLIDE 6: DATASET RESULTS
+"The dataset currently contains 277 earthquakes and 11 floods.
+The calculated priority distribution is five High, 99 Medium,
+and 184 Low. These labels come from our prototype scoring formula."
+
+SLIDE 7: PRIORITY CALCULATION
+"The prototype combines earthquake magnitude points with GDACS alert
+points when available. The score is capped at 100 and grouped into
+Low, Medium, and High bands. This is a transparent experimental
+heuristic, not an officially validated disaster-risk model."
+
+SLIDE 8: DATA QUALITY
+"I checked duplicate records, missing coordinates, coordinate ranges,
+and timestamps. The latest report shows zero issues for those checks.
+This confirms selected structural checks, but it does not guarantee
+that every source record is complete or factually correct."
+
+SLIDE 9: LIVE DEMONSTRATION
+"I will show the combined dataset, filter by source, switch between
+earthquakes and floods, and select the High priority band.
+I will then show the location plot and priority distribution chart."
+
+SLIDE 10: LIMITATIONS AND FUTURE WORK
+"The prototype does not predict disasters or replace official warnings.
+Future improvements could include automated data refresh, a geographic
+basemap, stronger automated tests, and evaluation against independently
+verified impact data."
+
+SLIDE 11: CONCLUSION
+"HydroSeismic demonstrates how public incident records can be combined,
+validated, explored, and prioritized using a transparent prototype.
+The next step is to improve repeatability and test the approach further.
+Thank you."
+
+LIKELY EVALUATOR QUESTIONS
+==========================
+
+Q1. What problem does HydroSeismic address?
+A. It combines selected public earthquake and flood records into one
+dataset that is easier to inspect, filter, and visualize.
+
+Q2. Why use both USGS and GDACS?
+A. USGS provides earthquake event information, while GDACS provides
+earthquake and flood event information and alert levels where available.
+
+Q3. Does HydroSeismic predict earthquakes or floods?
+A. No. It organizes observed incident records and calculates a
+prototype priority score. It does not predict future disasters.
+
+Q4. Is the calculated priority an official warning?
+A. No. It is an experimental heuristic. Official GDACS alert levels
+are stored separately from the calculated priority.
+
+Q5. What does data validation mean here?
+A. It means checking selected properties such as duplicate IDs,
+missing coordinates, valid coordinate ranges, and parseable timestamps.
+It does not prove source completeness or impact accuracy.
+
+Q6. Why are there more earthquake records than floods?
+A. In this particular dataset snapshot, there are 277 earthquake
+records and 11 flood records. Counts may change after a refresh.
+
+Q7. What would you improve next?
+A. I would automate refreshing and validating the data, improve
+geographic visualization, add more tests, and evaluate the scoring
+method against independently verified impact data.
+
+Q8. What is the main contribution?
+A. A working prototype that integrates public incident data and
+supports transparent exploration, validation, and prioritization.
+
+PRESENTATION REMINDER
+=====================
+Explain the project honestly as a prototype. Do not describe the
+priority score as a validated risk estimate, an official alert,
+or a prediction of future events.

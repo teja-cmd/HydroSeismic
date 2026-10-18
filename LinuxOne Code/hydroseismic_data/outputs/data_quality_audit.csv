@@ -1,0 +1,10 @@
+check,result
+total_records,288
+duplicate_incident_ids,0
+duplicate_complete_rows,0
+missing_latitude,0
+missing_longitude,0
+invalid_latitude,0
+invalid_longitude,0
+missing_or_invalid_timestamps,100
+earthquakes_missing_magnitude,0

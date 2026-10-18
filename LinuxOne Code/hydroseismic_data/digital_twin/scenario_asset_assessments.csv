@@ -1,0 +1,13 @@
+scenario_id,disaster_type,asset_id,asset_name,asset_category,distance_km,assessment_status,interpretation
+SIM-FLOOD-001,FLOOD,OSM-node-7262949165,"Pachamalai, PHC",HEALTHCARE,4.969,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-001,FLOOD,OSM-node-7262949177,Top Sengattupatti PHC,HEALTHCARE,3.871,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-001,FLOOD,OSM-node-7840647165,Sub Health Centre,HEALTHCARE,4.906,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-001,FLOOD,OSM-node-7840647212,Government Hospital,HOSPITAL,2.022,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-002,FLOOD,OSM-node-7262949165,"Pachamalai, PHC",HEALTHCARE,4.969,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-002,FLOOD,OSM-node-7262949177,Top Sengattupatti PHC,HEALTHCARE,3.871,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-002,FLOOD,OSM-node-7840647165,Sub Health Centre,HEALTHCARE,4.906,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-FLOOD-002,FLOOD,OSM-node-7840647212,Government Hospital,HOSPITAL,2.022,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-EQ-001,EARTHQUAKE,OSM-node-7262949165,"Pachamalai, PHC",HEALTHCARE,4.969,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-EQ-001,EARTHQUAKE,OSM-node-7262949177,Top Sengattupatti PHC,HEALTHCARE,3.871,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-EQ-001,EARTHQUAKE,OSM-node-7840647165,Sub Health Centre,HEALTHCARE,4.906,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.
+SIM-EQ-001,EARTHQUAKE,OSM-node-7840647212,Government Hospital,HOSPITAL,2.022,CANDIDATE_FOR_REVIEW,Distance screening only; actual hazard exposure has not been established.

@@ -1,0 +1,71 @@
+{
+  "generated_utc": "2026-10-17T11:57:07.019181+00:00",
+  "python_version": "3.12.15 (main, Oct  1 2026, 00:00:00) [GCC 14.3.1 20251022 (Red Hat 14.3.1-4)]",
+  "platform": "Linux-6.8.0-147-generic-s390x-with-glibc2.39",
+  "base_directory_exists": true,
+  "files": {
+    "Master scored dataset": {
+      "path": "/home/ibm-user/hydroseismic_data/processed/incidents_master_final_scored.csv",
+      "exists": true
+    },
+    "Latest USGS snapshot": {
+      "path": "/home/ibm-user/hydroseismic_data/processed/usgs_latest_refresh.csv",
+      "exists": true
+    },
+    "Data quality report": {
+      "path": "/home/ibm-user/hydroseismic_data/outputs/final_quality_report.csv",
+      "exists": true
+    },
+    "AI validation status": {
+      "path": "/home/ibm-user/hydroseismic_data/outputs/hydroseismic_ai_validation_status.json",
+      "exists": true
+    },
+    "Audit ledger": {
+      "path": "/home/ibm-user/hydroseismic_data/outputs/hydroseismic_trusted_audit_ledger.jsonl",
+      "exists": true
+    },
+    "Project backup": {
+      "path": "/home/ibm-user/hydroseismic_data/outputs/hydroseismic_project_backup.zip",
+      "exists": true
+    }
+  },
+  "dependencies_available": {
+    "pandas": true,
+    "numpy": true,
+    "sklearn": true,
+    "requests": true,
+    "matplotlib": true,
+    "plotly": true,
+    "ipywidgets": true,
+    "joblib": true
+  },
+  "master_dataset": {
+    "rows": 288,
+    "columns": 18,
+    "missing_incident_ids": 0,
+    "duplicate_incident_ids": 0,
+    "column_names": [
+      "incident_id",
+      "source",
+      "event_type",
+      "event_name",
+      "country",
+      "latitude",
+      "longitude",
+      "event_time_utc",
+      "magnitude",
+      "depth_km",
+      "official_alert_level",
+      "source_url",
+      "source_event_id",
+      "episode_id",
+      "priority_score",
+      "priority_band",
+      "magnitude_points",
+      "alert_points"
+    ]
+  },
+  "safety_configuration": "/home/ibm-user/hydroseismic_data/outputs/hydroseismic_production_config.json",
+  "public_warnings_enabled": false,
+  "overall_status": "BASELINE_RECORDED_REVIEW_REQUIRED"
+}

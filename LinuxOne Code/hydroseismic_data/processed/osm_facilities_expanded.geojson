@@ -1,0 +1,599 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.478211,
+          11.24911
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7257346769,
+        "name": "PHC, B.Mettur",
+        "category": "HEALTHCARE",
+        "latitude": 11.24911,
+        "longitude": 78.478211,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.516489,
+          11.26266
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7257346800,
+        "name": "Uppliyapuram, Upgraded PHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.26266,
+        "longitude": 78.516489,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7444693,
+          11.2131212
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7257348881,
+        "name": "PHC, Ammapalayam",
+        "category": "HEALTHCARE",
+        "latitude": 11.2131212,
+        "longitude": 78.7444693,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.799563,
+          11.23374
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7257348930,
+        "name": "PHC, Kurumbalur",
+        "category": "HEALTHCARE",
+        "latitude": 11.23374,
+        "longitude": 78.799563,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5850374,
+          11.2188189
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7257348935,
+        "name": "Perumalpalayam PHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.2188189,
+        "longitude": 78.5850374,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4867012,
+          11.4421254
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262800440,
+        "name": "Sabeetha Surgical Clinic",
+        "category": "HEALTHCARE",
+        "latitude": 11.4421254,
+        "longitude": 78.4867012,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.485504,
+          11.44011
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262800463,
+        "name": "Thammampatti PHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.44011,
+        "longitude": 78.485504,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5221139,
+          11.4384835
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262800487,
+        "name": "Sendarapatti PHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.4384835,
+        "longitude": 78.5221139,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7366561,
+          11.3767786
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262800493,
+        "name": "PHC, Arumbavur",
+        "category": "HEALTHCARE",
+        "latitude": 11.3767786,
+        "longitude": 78.7366561,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7086715,
+          11.4116147
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262800529,
+        "name": "Poolambadi CHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.4116147,
+        "longitude": 78.7086715,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7882072,
+          11.386431
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262800531,
+        "name": "Government Hospital, Krishnapuram",
+        "category": "HOSPITAL",
+        "latitude": 11.386431,
+        "longitude": 78.7882072,
+        "amenity": "hospital",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5644986,
+          11.3285101
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262949165,
+        "name": "Pachamalai, PHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.3285101,
+        "longitude": 78.5644986,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5843247,
+          11.3082545
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7262949177,
+        "name": "Top Sengattupatti PHC",
+        "category": "HEALTHCARE",
+        "latitude": 11.3082545,
+        "longitude": 78.5843247,
+        "amenity": "",
+        "healthcare": "centre",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4858654,
+          11.4437321
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647142,
+        "name": "Annai Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.4437321,
+        "longitude": 78.4858654,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5651328,
+          11.3279018
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647165,
+        "name": "Sub Health Centre",
+        "category": "HEALTHCARE",
+        "latitude": 11.3279018,
+        "longitude": 78.5651328,
+        "amenity": "clinic",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4894516,
+          11.4424776
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647178,
+        "name": "Thai Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.4424776,
+        "longitude": 78.4894516,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4890421,
+          11.4415635
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647186,
+        "name": "Jayaraj Memorial Clinic",
+        "category": "HEALTHCARE",
+        "latitude": 11.4415635,
+        "longitude": 78.4890421,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4879762,
+          11.4426079
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647191,
+        "name": "Dr. Ramu Life Care Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.4426079,
+        "longitude": 78.4879762,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.485868,
+          11.444915
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647199,
+        "name": "Shreetejo Ayurveda Clinic",
+        "category": "HEALTHCARE",
+        "latitude": 11.444915,
+        "longitude": 78.485868,
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4857585,
+          11.4439899
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647202,
+        "name": "Vinola Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.4439899,
+        "longitude": 78.4857585,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6138846,
+          11.3501634
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647212,
+        "name": "Government Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.3501634,
+        "longitude": 78.6138846,
+        "amenity": "hospital",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4862134,
+          11.4443163
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647220,
+        "name": "The Chirist Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.4443163,
+        "longitude": 78.4862134,
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5247325,
+          11.437014
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7840647226,
+        "name": "Government Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.437014,
+        "longitude": 78.5247325,
+        "amenity": "hospital",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7200159,
+          11.4261241
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7846637029,
+        "name": "Government Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.4261241,
+        "longitude": 78.7200159,
+        "amenity": "hospital",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7289364,
+          11.382232
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7846637053,
+        "name": "Reality Hospital",
+        "category": "HOSPITAL",
+        "latitude": 11.382232,
+        "longitude": 78.7289364,
+        "amenity": "hospital",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.790235,
+          11.377045
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7846637084,
+        "name": "Annai Homoeo Clinic",
+        "category": "HEALTHCARE",
+        "latitude": 11.377045,
+        "longitude": 78.790235,
+        "amenity": "clinic",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7891346,
+          11.378081
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7846637089,
+        "name": "Bala Clinic",
+        "category": "HEALTHCARE",
+        "latitude": 11.378081,
+        "longitude": 78.7891346,
+        "amenity": "clinic",
+        "healthcare": "",
+        "emergency": "",
+        "capacity": ""
+      }
+    }
+  ]
+}

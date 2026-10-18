@@ -1,0 +1,31 @@
+{
+  "project": "HydroSeismic",
+  "evaluation_type": "Chronological retrospective holdout evaluation",
+  "generated_utc": "2026-10-17T11:52:41.245204+00:00",
+  "fold_count": 3,
+  "fold_results_file": "/home/ibm-user/hydroseismic_data/outputs/hydroseismic_ai_chronological_folds.csv",
+  "summary_file": "/home/ibm-user/hydroseismic_data/outputs/hydroseismic_ai_chronological_summary.csv",
+  "model": "Random Forest regressor",
+  "target": "Recorded earthquake magnitude",
+  "baseline": "Median magnitude baseline",
+  "status": "PRELIMINARY_EXPERIMENTAL_RESULTS",
+  "limitations": [
+    "Small dataset and short observation window",
+    "Retrospective evaluation only",
+    "Not independent scientific validation",
+    "Does not forecast earthquake occurrence or location",
+    "Not suitable for official warnings or life-safety decisions"
+  ],
+  "random_forest_summary": {
+    "model": "Random Forest",
+    "MAE": 0.465,
+    "RMSE": 0.649,
+    "R2": 0.732
+  },
+  "baseline_summary": {
+    "model": "Median baseline",
+    "MAE": 1.012,
+    "RMSE": 1.31,
+    "R2": -0.027
+  }
+}
